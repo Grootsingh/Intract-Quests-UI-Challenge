@@ -1,0 +1,53 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "custom-black-1000": "#080808",
+        "custom-black-950": "#181818",
+        "custom-black-900": "#101010",
+        "custom-black-850": "#1a1a1a",
+        "custom-black-800": "#131313",
+        "custom-gray-800": "#727272",
+        "custom-gray-700": "#7d7d7d",
+        "custom-gray-100": "#ffffffb3",
+        "custom-gray-60": "#fff9",
+        "custom-gray-55": "#fff6",
+        "custom-gray-50": "#fff3",
+        "custom-purple-600": "#6435e9",
+        "custom-translucent-white-05": "rgba(255, 255, 255, .05)",
+        "custom-translucent-white-07": "rgba(255, 255, 255, .07)",
+        "custom-translucent-white-1": "rgba(255, 255, 255, .1)",
+        "custom-translucent-white-2": "rgba(255, 255, 255, .2)",
+        "custom-translucent-white-4": "rgba(255, 255, 255, .4)",
+        "custom-translucent-white-6": "rgba(255, 255, 255, .6)",
+        "custom-translucent-white-8": "rgba(255, 255, 255, .8)",
+        "custom-translucent-white-12": "rgba(255, 255, 255, .12)",
+        "custom-translucent-white-15": "rgba(255, 255, 255, .15)",
+        "custom-translucent-black-4": "rgba(0, 0, 0, .4)",
+        "custom-translucent-black-2": "rgba(0, 0, 0, .2)",
+        "custom-translucent-black": "#00000040",
+      },
+      screens: {
+        "xsm-470": "470px",
+        "xsm-500": "500px",
+        xsm: "570px",
+        "md-700": "700px",
+        "md-850": "850px",
+        "md-960": "960px",
+        "xl-1260": "1260px",
+        "xl-1200": "1200px",
+      },
+      boxShadow: {
+        "custom-inset": "-2px -2px 5px #0006 inset,2px 2px 5px #0006 inset",
+        "custom-inset2": "0 1px 1px #ffffff26 inset",
+      },
+    },
+  },
+  plugins: [],
+};
