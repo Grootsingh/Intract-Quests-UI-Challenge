@@ -6,7 +6,10 @@ import NFTTickDisclosur from "../NFTTickDisclosur";
 function BasicOfCrypto() {
   return (
     <>
-      <section id="basic of crypto" className="relative min-h-[43rem]">
+      <section
+        id="basic of crypto"
+        className="relative min-h-[43rem] overflow-x-hidden sm:overflow-visible"
+      >
         <div className="hidden md:block -translate-x-12 translate-y-[120px] w-fit">
           <NFTLine1 />
         </div>

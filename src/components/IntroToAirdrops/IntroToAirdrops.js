@@ -5,7 +5,10 @@ import CryptoMenu from "../CryptoMenu";
 import { IntroductionToAirdropsData } from "@/data";
 function IntroToAirdrops() {
   return (
-    <section id="intro to airdrops" className="relative min-h-[53rem]">
+    <section
+      id="intro to airdrops"
+      className="relative min-h-[53rem] overflow-x-hidden sm:overflow-visible"
+    >
       <div className="xsm:w-fit mx-auto relative z-10 md-960:translate-x-28">
         <div className="bg-custom-black-1000 absolute -z-10 -top-12 h-full w-[610px] right-0 md-960:hidden "></div>
         <CryptoMenu MenuData={IntroductionToAirdropsData} />
