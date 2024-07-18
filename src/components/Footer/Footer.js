@@ -79,25 +79,25 @@ function SubFooter2() {
             size={20}
             strokeWidth={1.4}
             id={"facebook"}
-            className="rounded-lg flex items-center text-blue-500 justify-center bg-custom-black-850 w-[40px] h-[40px] "
+            className="rounded-lg ml-auto flex items-center text-blue-500 justify-center bg-custom-black-850 w-[40px] h-[40px] "
           />
           <Icon
             size={20}
             strokeWidth={1.4}
             id={"linkedin"}
-            className="rounded-lg flex items-center text-blue-600 justify-center bg-custom-black-850 w-[40px] h-[40px]"
+            className="rounded-lg ml-auto flex items-center text-blue-600 justify-center bg-custom-black-850 w-[40px] h-[40px]"
           />
           <Icon
             size={20}
             strokeWidth={1.4}
             id={"twitter"}
-            className="rounded-lg flex items-center text-sky-500 justify-center bg-custom-black-850 w-[40px] h-[40px]"
+            className="rounded-lg ml-auto flex items-center text-sky-500 justify-center bg-custom-black-850 w-[40px] h-[40px]"
           />
           <Icon
             size={20}
             strokeWidth={1.4}
             id={"youtube"}
-            className="rounded-lg flex items-center text-red-500 justify-center bg-custom-black-850 w-[40px] h-[40px]"
+            className="rounded-lg ml-auto flex items-center text-red-500 justify-center bg-custom-black-850 w-[40px] h-[40px]"
           />
         </div>
       </div>
