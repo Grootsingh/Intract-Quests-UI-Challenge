@@ -4,7 +4,7 @@ import React from "react";
 function FloatingTab() {
   const [isActive, setActive] = React.useState("Essentials");
   return (
-    <div className="pb-12 z-20 sticky bottom-0">
+    <div className="pb-12 xsm-400:z-20 xsm-400:sticky xsm-400:bottom-0">
       <div className="rounded-full border flex items-center justify-between w-fit mx-auto border-custom-translucent-white-07 bg-custom-translucent-white-05 shadow-lg backdrop-blur-[10px]">
         <button
           onClick={() => {

@@ -10,6 +10,7 @@ function ExclusiveCommunite() {
         height={600}
         width={600}
         className="w-full"
+        unoptimized={true}
       />
       <div className="flex items-center justify-between">
         <p className="text-custom-translucent-white-4">Exclusive Community</p>

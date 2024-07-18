@@ -8,7 +8,7 @@ function BasicOfCrypto() {
     <>
       <section
         id="basic of crypto"
-        className="relative min-h-[43rem] overflow-x-hidden sm:overflow-visible"
+        className="relative min-h-[43rem] overflow-x-clip"
       >
         <div className="hidden md:block -translate-x-12 translate-y-[120px] w-fit">
           <NFTLine1 />

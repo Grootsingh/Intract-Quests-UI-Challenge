@@ -13,7 +13,7 @@ import RewardUnlock from "@/components/RewardUnlock";
 export default function Home() {
   return (
     <>
-      <div className="relative">
+      
         <Header />
         <HeroSection />
         <article className="max-w-[1284px] relative mx-auto px-4 xsm:px-0 mt-28 xsm-500:mt-20 md:mt-8 lg:-mt-[70px] xl:-mt-[176px]">
@@ -25,7 +25,7 @@ export default function Home() {
         <CryptoDictionary />
         <FloatingTab />
         <Footer />
-      </div>
+     
     </>
   );
 }

@@ -34,6 +34,7 @@ module.exports = {
         "custom-translucent-black": "#00000040",
       },
       screens: {
+        "xsm-400": "400px",
         "xsm-470": "470px",
         "xsm-500": "500px",
         xsm: "570px",

@@ -11,11 +11,38 @@ function CryptoMenu({ MenuData }) {
   return (
     <>
       <div
+        onClick={() => {
+          setOpen((curr) => !curr);
+        }}
         className={`${
           isOpen ? "rounded-tl-3xl rounded-tr-3xl" : "rounded-3xl"
-        } flex items-center gap-6 max-w-[520px] p-6  border border-custom-translucent-white-05 bg-custom-translucent-white-05 hover:bg-custom-translucent-white-12`}
+        } flex items-center flex-wrap pt-[3.5rem] xsm-400:pt-6 xsm-400:flex-nowrap justify-center xsm-400:justify-normal gap-6 max-w-[520px] p-6  border border-custom-translucent-white-05 bg-custom-translucent-white-05 hover:bg-custom-translucent-white-12`}
       >
-        <div className="h-[180px] basis-[160px] shrink-0 relative p-2 rounded-2xl border border-custom-translucent-white-2">
+        <div className="block xsm-400:hidden ml-auto absolute right-[20px] top-[10px]">
+          {isOpen ? (
+            <button>
+              <Icon
+                id="chevronUp"
+                side={20}
+                strokeWidth={3}
+                color={"#fff3"}
+                className={"p-2"}
+              />
+            </button>
+          ) : (
+            <button>
+              <Icon
+                id="chevronUp"
+                side={20}
+                strokeWidth={3}
+                color={"#fff3"}
+                className={"p-2 rotate-180"}
+              />
+            </button>
+          )}
+        </div>
+
+        <div className=" h-[180px]  xsm-400:basis-[160px] xsm-400:shrink-0 relative p-2 rounded-2xl border border-custom-translucent-white-2">
           <Image
             src={img}
             height={height}
@@ -30,37 +57,29 @@ function CryptoMenu({ MenuData }) {
           </div>
         </div>
         <div className="flex flex-col">
-          {isOpen ? (
-            <button
-              className="self-end"
-              onClick={() => {
-                setOpen((curr) => !curr);
-              }}
-            >
-              <Icon
-                id="chevronUp"
-                side={20}
-                strokeWidth={3}
-                color={"#fff3"}
-                className={"p-2"}
-              />
-            </button>
-          ) : (
-            <button
-              className="self-end"
-              onClick={() => {
-                setOpen((curr) => !curr);
-              }}
-            >
-              <Icon
-                id="chevronUp"
-                side={20}
-                strokeWidth={3}
-                color={"#fff3"}
-                className={"p-2 rotate-180"}
-              />
-            </button>
-          )}
+          <div className="hidden xsm-400:block self-end">
+            {isOpen ? (
+              <button>
+                <Icon
+                  id="chevronUp"
+                  side={20}
+                  strokeWidth={3}
+                  color={"#fff3"}
+                  className={"p-2"}
+                />
+              </button>
+            ) : (
+              <button>
+                <Icon
+                  id="chevronUp"
+                  side={20}
+                  strokeWidth={3}
+                  color={"#fff3"}
+                  className={"p-2 rotate-180"}
+                />
+              </button>
+            )}
+          </div>
 
           <div className="flex flex-col gap-4">
             <p className="text-2xl leading-6">{title}</p>

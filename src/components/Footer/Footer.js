@@ -74,7 +74,7 @@ function SubFooter2() {
           CREATED BY{" "}
           <span className="underline underline-offset-2">INTRACT</span>
         </p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           <Icon
             size={20}
             strokeWidth={1.4}

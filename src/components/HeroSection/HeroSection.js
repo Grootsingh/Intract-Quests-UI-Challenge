@@ -17,6 +17,7 @@ function HeroSection() {
           height={100}
           width={235}
           alt="intract academy"
+          unoptimized={true}
           className="mix-blend-screen w-[188px] xsm:w-[235px]"
         />
         <p className="xsm:text-xl xsm:mt-2 sm:mt-[22px] leading-6 font-medium text-custom-gray-100">
