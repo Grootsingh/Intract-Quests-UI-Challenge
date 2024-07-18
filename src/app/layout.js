@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.className} overflow-x-hidden bg-custom-black-1000 text-white relative`}
+        className={`${outfit.className} overflow-x-hidden bg-custom-black-1000 text-white`}
       >
         {children}
       </body>
