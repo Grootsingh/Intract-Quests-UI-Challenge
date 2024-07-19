@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <footer className=" bg-custom-black-1000 border-custom-translucent-white-12 border-t">
-        <div className="max-w-[1284px] p-12">
+        <div className="max-w-[1284px] p-12 mx-auto">
           <div className="flex justify-center md-700:justify-between flex-wrap md-700:flex-nowrap gap-10 relative mx-auto">
             <div className="w-[300px]">
               <p className="text-[1.75rem] text-white text-center xsm-470:text-start">

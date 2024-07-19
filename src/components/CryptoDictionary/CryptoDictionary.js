@@ -24,7 +24,7 @@ function CryptoDictionary() {
                   Web3 + Degen Glossary
                 </p>
               </div>
-              <div className="backdrop-blur-[20px] rounded-full w-[64px] h-[64px] flex items-center justify-center border border-custom-translucent-white-2 bg-custom-translucent-black-4">
+              <div className="backdrop-blur-[20px] rounded-full shrink-0 w-[64px] h-[64px] flex items-center justify-center border border-custom-translucent-white-2 bg-custom-translucent-black-4">
                 <Icon
                   id="bookmark"
                   size={20}
