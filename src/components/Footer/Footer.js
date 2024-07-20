@@ -72,7 +72,9 @@ function SubFooter2() {
       <div className="flex justify-between items-center gap-2">
         <p className="text-white">
           CREATED BY{" "}
-          <span className="underline underline-offset-2">INTRACT</span>
+          <span className="underline underline-offset-2 whitespace-nowrap">
+            RAJAT SINGH
+          </span>
         </p>
         <div className="flex gap-2 flex-wrap">
           <Icon
